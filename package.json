@@ -4,6 +4,7 @@
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
     "flow-bin": "^0.30.0"
   }
 }
